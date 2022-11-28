@@ -17,7 +17,7 @@
 <header> <h2> Formulário de Cadastro </h2> </header>
 <section>
 	<div class="container">
-      <form>
+   <form method="post" action="insert.php">
   <div class="input-group input-group-lg">
   <span class="input-group-text" id="inputGroup-sizing-lg">Professor</span>
   <input type="text" name="prof" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">

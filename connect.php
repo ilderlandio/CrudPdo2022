@@ -1,6 +1,6 @@
 <?php 
 $bank = "crudphp2022";
-$host = "127.0.0.";
+$host = "127.0.0.1";
 $user_bd = "root"; 
 $pass_bd = "";
 $charset = "utf8";
