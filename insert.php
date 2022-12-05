@@ -11,8 +11,7 @@
 
 $id = 0; 
 
-$stmt = $conn->prepare("INSERT INTO funcionarios VALUES(:id, 
-   :prof,:servG,:gestao,:email)");
+$stmt = $conn->prepare("INSERT INTO funcionarios VALUES(:id,:prof,:servG,:gestao,:email)");
 
 $stmt->bindParam(":id",$id); 
 $stmt->bindParam(":prof",$prof); 
@@ -20,10 +19,8 @@ $stmt->bindParam(":servG",$servGerais);
 $stmt->bindParam(":gestao",$gestao); 
 $stmt->bindParam(":email",$email); 
 
-$stmt->execute(); 
-
-
-
-
+if($stmt->execute()){
+     echo "<br> Dados inseridos com sucesso!"; 
+} 
 
 ?> 
