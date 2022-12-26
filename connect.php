@@ -5,6 +5,12 @@ $user_bd = "root";
 $pass_bd = "";
 $charset = "utf8";
 
+// $bank = "info2021_ismael";
+// $host = "localhost";
+// $user_bd = "info2021_ismael1"; 
+// $pass_bd = "Ismael10";
+// $charset = "utf8";
+
 $config = "mysql:dbname=$bank;";
 $config .= "host=$host;";
 $config .= "charset=$charset";

@@ -39,7 +39,7 @@
 	</div>
 </section>
 <footer>
-	EEEP Amélia - 2022
+	EEEP Amélia - 2022 - <a href="index.php"> Home </a>
 </footer>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
